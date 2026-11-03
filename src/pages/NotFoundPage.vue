@@ -1,0 +1,2 @@
+<script setup>import AppIcon from '../components/AppIcon.vue'</script>
+<template><div class="shell not-found"><span class="eyebrow">ПОХОЖЕ, МЫ ВЫШЛИ ЗА ПРЕДЕЛЫ КАДРА</span><strong>404<span>.</span></strong><h1>Эта страница ещё не нарисована</h1><p>Но впереди целый информационный мир.</p><RouterLink to="/" class="button button-primary">На главную <AppIcon name="arrowRight" :size="18" /></RouterLink></div></template>
