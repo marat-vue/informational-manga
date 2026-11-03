@@ -2,6 +2,39 @@
 
 Авторская манга о кибербезопасности, дружбе и технологиях. Vue 3, Vue Router, Pinia, Tailwind CSS и Vite. Четыре оригинальные главы, 42 страницы. Шрифты Manrope и Oswald поставляются локально через Fontsource; обращения к Google Fonts не нужны.
 
+## Демонстрация
+
+[Открыть сайт →](https://marat-vue.github.io/informational-manga/)
+
+**Главная страница** — знакомство с историей и быстрый переход к чтению.
+
+[![Главная страница «Информационного мира»: героиня и Робо, описание манги и кнопка «Начать читать»](docs/screenshots/home-desktop.jpg)](docs/screenshots/home-desktop.jpg)
+
+**Каталог глав** — четыре истории о цифровом мире, поиск и фильтры по прогрессу чтения.
+
+[![Каталог с обложками глав «Пароли», «Социальные сети», «QR-коды» и «Компьютер внутри нас»](docs/screenshots/chapters-desktop.jpg)](docs/screenshots/chapters-desktop.jpg)
+
+<table>
+  <tr>
+    <th width="65%">Постраничный ридер</th>
+    <th width="35%">Мобильная версия</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="docs/screenshots/reader-desktop.jpg"><img src="docs/screenshots/reader-desktop.jpg" alt="Ридер: страница главы «Пароли», выбор главы, закладки и панель перелистывания" width="600" /></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="docs/screenshots/home-mobile.jpg"><img src="docs/screenshots/home-mobile.jpg" alt="Главная страница на смартфоне: адаптивная обложка, мобильное меню и кнопка начала чтения" width="280" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Выбор главы и страницы, закладки и режим погружения.</td>
+    <td>История всегда под рукой — на любом экране.</td>
+  </tr>
+</table>
+
+Скриншоты сняты с работающего сайта в двойном разрешении. Нажмите на изображение, чтобы открыть его в полном размере.
+
 ## Запуск
 
 Требуется Node.js 22.12+ (рекомендуется 24).
@@ -34,7 +67,7 @@ npm run preview
 2. В **Settings → Pages → Build and deployment → Source** выберите **GitHub Actions**.
 3. Отправьте изменения в `main` / `master` или вручную запустите **Actions → Deploy to GitHub Pages → Run workflow**.
 
-Workflow устанавливает зависимости через `npm ci`, запускает тесты, собирает и публикует `dist`. Базовый путь автоматически берётся из имени репозитория. Для текущего репозитория адрес после успешного деплоя будет: [marat-englisc.github.io/informational-manga/](https://marat-englisc.github.io/informational-manga/).
+Workflow устанавливает зависимости через `npm ci`, запускает тесты, собирает и публикует `dist`. Базовый путь автоматически берётся из имени репозитория. Адрес сайта: [marat-vue.github.io/informational-manga/](https://marat-vue.github.io/informational-manga/).
 
 Настройка основана на [официальной инструкции Vite для GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages); версии GitHub Actions закреплены по SHA.
 
